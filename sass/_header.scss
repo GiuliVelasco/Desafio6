@@ -1,0 +1,44 @@
+//Estilos del header
+header{
+    .fondoheader{
+        background-image: url(../img/portada2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 240px;
+        .container-fluid{
+            a{
+                .logo{
+                    border-radius: 100px;
+                }
+            }
+        }    
+    }
+}
+//Estilos del menú navegación
+.fondonav{
+    background-color: #810000;
+    .nav{
+        li{
+            .navcolor{
+                color: #EEEBDD;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1rem;
+                text-transform: uppercase;
+                &:hover{
+                    color: #EEEBDD;
+                }
+            }
+            .hoja-activa{
+                color: black;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+//Estilos del footer
+.fondofooter{
+    background-color: #EEEBDD;
+}
